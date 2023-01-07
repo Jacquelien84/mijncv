@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+body{
+    font: 17px Verdana
+	  color:#000000;
+    background-color: #FFFFE0;
+    margin-left: 25px;
+    margin-right: 25px;
+    }
+
+header{
+      background-color: #FFE4B5;
+      width: 100%;
+      height: 50px;
+      padding: 10px;
+      }
+
+#nav li{
+    display: inline;              /*Deze code zorgt er voor dat het menu verticaal staat*/
+    margin-right: 5px;            /*De afstand tussen de tabs*/
+    float: left;                  /*Zorgt voor de positie van de menu knoppen*/
+    padding: 10px;                /*De grote van de menu tabs*/
+    background-color: #FFDAB9;
+    }
+
+#nav li a:link {color: #000000; text-decoration: none;}
+#nav li a:visited {color: #808080}
+#nav li a:hover {color: #008000}
+
+.p1 {
+    background-color: #FFFACD;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-align: center;
+    }
+
+.center {
+    background-color: #FFFACD;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+table, th, td {
+        border: 1px solid;
+        text-align: center;
+
+        }
+
+input[type="text"], input[type="email"], textarea, select, button{
+      display: block;
+      margin: 15px 0px;
+      width: 400px;
+      box-sizing: border-box;
+      }
+
+.contact {
+      background-color: #FFFACD;
+      margin-left: 25px;
+      margin-right: 25px;
+      }
+
+footer{
+      background-color: #FFE4B5;
+      width: 100%;
+      height: 30px;
+      text-align: center;
+      }
